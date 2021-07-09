@@ -16,7 +16,7 @@ public class SearchJsonPathExample {
     }
 
 
-    // 1) Extract numItems
+    // 1) Extract limit
     @Test
     public void test001() {
 
@@ -27,7 +27,7 @@ public class SearchJsonPathExample {
 
     }
 
-    // 2) Extract query
+    // 2) Extract total
     @Test
     public void test002() {
 
@@ -38,7 +38,7 @@ public class SearchJsonPathExample {
 
     }
 
-    // 3) Extract first productName by providing list index value
+    // 3) Extract first name from data by providing list index value
     @Test
     public void test003() {
 
@@ -48,7 +48,7 @@ public class SearchJsonPathExample {
         System.out.println("------------------End of Test---------------------------");
     }
 
-    // 4) Get the first list from imageEntities for the first product
+    // 4) Get the first list from categories for the first data
     @Test
     public void test004() {
 
@@ -58,7 +58,7 @@ public class SearchJsonPathExample {
 
     }
 
-    // 5)Print the size of items
+    // 5)Print the size of data
     @Test
     public void test005() {
 
@@ -67,7 +67,7 @@ public class SearchJsonPathExample {
         System.out.println("------------------End of Test---------------------------");
     }
 
-    // 6) Get All the Names from Items
+    // 6) Get All the Names from data
     @Test
     public void test006() {
 
@@ -76,7 +76,7 @@ public class SearchJsonPathExample {
         System.out.println("------------------End of Test---------------------------");
     }
 
-    // 7) Get the all the values for Name == Straight Talk SAMSUNG Galaxy A20, 32GB Black - Prepaid Smartphone
+    // 7) Get the all the values for Name == Metra - Speaker Connector for Select Mitsubishi and Chrysler Vehicles
     @Test
     public void test007() {
 
@@ -85,7 +85,7 @@ public class SearchJsonPathExample {
         System.out.println("------------------End of Test---------------------------");
     }
 
-    // 8) Get the sale price for Name == Straight Talk SAMSUNG Galaxy A01, 16GB Black - Prepaid Smartphone
+    // 8) Get the price for Name == Metra - 1/4" DIN Trim Ring for Most Vehicles
     @Test
     public void test008() {
 
@@ -94,7 +94,7 @@ public class SearchJsonPathExample {
         System.out.println("------------------End of Test---------------------------");
     }
 
-    // 9) Get the Names which have salePrice less than 200
+    // 9) Get the Names which have price less than 16.99
     @Test
     public void test009() {
 
@@ -103,7 +103,7 @@ public class SearchJsonPathExample {
         System.out.println("------------------End of Test---------------------------");
     }
 
-    // 10) Get the msrp of items that Start with name = Str
+    // 10) Get the manufacturer of items that Start with name = McV
     @Test
     public void test010() {
 
@@ -112,7 +112,7 @@ public class SearchJsonPathExample {
         System.out.println("------------------End of Test---------------------------");
     }
 
-    // 11) Get the sale price of items that End with name = 2020
+    // 11) Get the price of items that End with name = Vehicles
     @Test
     public void test011() {
 
